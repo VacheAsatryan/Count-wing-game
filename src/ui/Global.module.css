@@ -1,0 +1,97 @@
+.block {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5x;
+    width: 80%;
+    margin-left: 10%;
+    height: 80vh;
+    margin-top: 10vh;
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    height: 10vh;
+    padding-top: 2.5vh;
+}
+
+.button {
+    background-color: white;
+    color: rgb(20, 220, 80);
+    border: 2px solid rgb(20, 220, 80);
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.button:hover {
+    background-color: rgb(20, 220, 80);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.over {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+
+
+.bonus-game-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5x;
+    width: 80%;
+    margin-left: 10%;
+    height: 80vh;
+    margin-top: 10vh;
+}
+
+
+.bonus-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.bonus-over {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+}
